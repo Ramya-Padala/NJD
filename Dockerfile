@@ -1,3 +1,3 @@
-FROM nginx:alpine
-COPY index.html /usr/share/nginx/html/index.html
+FROM httpd:latest
+COPY index.html /usr/share/apache2/html/index.html
 EXPOSE 80
